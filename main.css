@@ -1,0 +1,21 @@
+li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+.main-logo {
+    height: 92px;
+    width: 272px;
+    margin: 0 auto;
+}
+
