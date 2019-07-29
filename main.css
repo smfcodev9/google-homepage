@@ -70,3 +70,24 @@ nav ul li {
     margin: 0 auto;
 }
 
+#search-bar {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.search-buttons {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.search-buttons button {
+    flex: 1 0;
+    margin: 15px 10px;
+}
+
+.alt-language {
+    text-align: center;
+    margin: 0 auto;
+}
