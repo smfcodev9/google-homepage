@@ -48,6 +48,25 @@ table {
 }
 /* end of css reset */
 
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    align-self: flex-start;
+    justify-self: flex-end;
+    width: 100%;
+    font-size: 10pt;
+}
 
 li {
     list-style: none;
@@ -55,39 +74,118 @@ li {
 
 nav ul {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 
 nav ul li {
-    margin: 10px;
+    margin-top: 15px;
+    padding: 5px 10px 8px 10px;
+}
+
+.apps {
+    margin-right: 5px;
+}
+
+.sign-in {
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+footer {
+    justify-self: flex-end;
+    align-self: flex-end;
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .main-logo {
-    height: 92px;
     width: 272px;
-    margin: 0 auto;
+}
+
+form {
+    width: 100%;
 }
 
 #search-bar {
     display: block;
-    width: 50%;
-    margin: 0 auto;
+    width: 28rem;
+    border-radius: 50px;
+    height: 2.5rem;
+    padding: 0 1rem;
+    margin: 20px auto 0 auto;
 }
 
 .search-buttons {
-    width: 50%;
     display: flex;
+    width: 30%;
+    border-radius: 8px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .search-buttons button {
-    flex: 1 0;
-    margin: 15px 10px;
+    flex: 1 0 auto;
+    margin: 30px 6px;
+    height: 2rem;
+    padding: 0px;
 }
 
 .alt-language {
     text-align: center;
-    margin: 0 auto;
+    font-size: 10pt;
+}
+
+.current-country {
+    text-align: left;
+    font-size: 12pt;
+    padding: 15px 0 15px 25px;
+    background-color: #f3f3f3;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    color: #6d6d6d;
+}
+
+.footer {
+    display: flex;
+    font-size: 10pt;
+    padding: 15px 25px 15px 25px;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    color: #6d6d6d;
+}
+
+.footer ul {
+    flex: 1 0;
+    display: flex;
+}
+
+.right-footer {
+    justify-content: flex-end;
+}
+
+.right-footer li {
+    margin-left: 20px;
+}
+
+.left-footer {
+    justify-content: flex-start;
+}
+
+.left-footer li {
+    margin-right: 20px;
 }
