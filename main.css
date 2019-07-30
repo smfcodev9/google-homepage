@@ -130,6 +130,10 @@ form {
     margin: 20px auto 0 auto;
 }
 
+#search-bar:hover {
+    box-shadow: 0 0 7px #d1d1d1;
+}
+
 .search-buttons {
     display: flex;
     width: 30%;
